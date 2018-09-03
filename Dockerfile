@@ -1,3 +1,4 @@
-FROM mhart/alpine-node:base-10
-COPY backend/server.js .
-CMD ["node", "server"]
+FROM mhart/alpine-node:latest
+COPY index.js package.json package-lock.json ./
+RUN npm i
+CMD ["node", "index"]

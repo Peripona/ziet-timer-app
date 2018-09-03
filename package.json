@@ -1,0 +1,27 @@
+{
+  "name": "ziet-timer-app",
+  "version": "1.0.0",
+  "description": "ziet first app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Peripona/ziet-timer-app.git"
+  },
+  "keywords": [
+    "ziet",
+    "first",
+    "app"
+  ],
+  "author": "Tarandeep Singh",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Peripona/ziet-timer-app/issues"
+  },
+  "homepage": "https://github.com/Peripona/ziet-timer-app#readme",
+  "dependencies": {
+    "express": "^5.0.0-alpha.5"
+  }
+}
