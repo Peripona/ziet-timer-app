@@ -1,2 +1,3 @@
 FROM mhart/alpine-node:base-10
-CMD ["node", "-e", "require('http').Server((_,r)=>r.end('Hello!!!!!!!!!')).listen()"]
+COPY backend/server.js .
+CMD ["node", "server"]
