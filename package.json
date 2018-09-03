@@ -22,6 +22,7 @@
   },
   "homepage": "https://github.com/Peripona/ziet-timer-app#readme",
   "dependencies": {
+    "@google-cloud/firestore": "0.16.1",
     "express": "^5.0.0-alpha.5"
   }
 }
