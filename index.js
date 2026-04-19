@@ -8,9 +8,6 @@ const firestore = new Firestore({
   keyFilename: 'serviceAccountKeys.json',
 });
 
-firestore.settings({
-  timestampsInSnapshots: true
-});
 
 const document = firestore.doc('/test/click');
 
